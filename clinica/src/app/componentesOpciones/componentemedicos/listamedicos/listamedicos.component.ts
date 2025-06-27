@@ -7,11 +7,10 @@ import Swal from 'sweetalert2';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-listamedicos',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './listamedicos.component.html',
-  styleUrl: './listamedicos.component.css'
+    selector: 'app-listamedicos',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './listamedicos.component.html',
+    styleUrl: './listamedicos.component.css'
 })
 export class ListamedicosComponent {
  listaMedicos : InMedico[] =[];

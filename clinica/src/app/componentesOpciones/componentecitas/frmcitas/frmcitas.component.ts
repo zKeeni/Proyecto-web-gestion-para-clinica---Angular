@@ -27,16 +27,15 @@ import { citasService } from '../../../servicios/citas.service';
 import { AlertService } from '../../../servicios/Alertas/alertas.service';
 
 @Component({
-  selector: 'app-frmcitas',
-  standalone: true,
-  imports: [
-    CommonModule,
-    ReactiveFormsModule,
-    RouterModule,
-    FullCalendarModule,
-  ],
-  templateUrl: './frmcitas.component.html',
-  styleUrl: './frmcitas.component.css',
+    selector: 'app-frmcitas',
+    imports: [
+        CommonModule,
+        ReactiveFormsModule,
+        RouterModule,
+        FullCalendarModule,
+    ],
+    templateUrl: './frmcitas.component.html',
+    styleUrl: './frmcitas.component.css'
 })
 export class FrmcitasComponent {
   formCita: FormGroup;

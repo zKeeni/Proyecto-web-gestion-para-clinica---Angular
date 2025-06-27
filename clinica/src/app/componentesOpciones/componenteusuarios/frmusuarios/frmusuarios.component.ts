@@ -13,11 +13,10 @@ import { InRoles } from '../../../modelos/modeloRoles/InRoles';
 import Swal from 'sweetalert2';
 
 @Component({
-  selector: 'app-frmusuarios',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterModule,CommonModule],
-  templateUrl: './frmusuarios.component.html',
-  styleUrl: './frmusuarios.component.css'
+    selector: 'app-frmusuarios',
+    imports: [ReactiveFormsModule, RouterModule, CommonModule],
+    templateUrl: './frmusuarios.component.html',
+    styleUrl: './frmusuarios.component.css'
 })
 export class FrmusuariosComponent {
 

@@ -9,11 +9,10 @@ import { jsPDF } from 'jspdf';
 
 
 @Component({
-  selector: 'app-reporteHistorial',
-  standalone: true,
-  imports: [CommonModule,RouterModule],
-  templateUrl: './reporteHistorial.component.html',
-  styleUrl: './reporteHistorial.component.css'
+    selector: 'app-reporteHistorial',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './reporteHistorial.component.html',
+    styleUrl: './reporteHistorial.component.css'
 })
 export class reporteHistorialComponent {
   listaHistorial: InHistorial|null=null;

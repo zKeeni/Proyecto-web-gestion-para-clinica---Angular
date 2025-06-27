@@ -2,7 +2,8 @@ import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 import { AuthService } from '../servicios/authservicio.service';
 
 @Directive({
-  selector: '[appMostrarSiRol]'
+    selector: '[appMostrarSiRol]',
+    standalone: false
 })
 export class MostrarSiRolDirective {
   constructor(

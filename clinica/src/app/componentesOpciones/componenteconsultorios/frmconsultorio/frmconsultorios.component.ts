@@ -14,11 +14,10 @@ import { AlertService } from '../../../servicios/Alertas/alertas.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-frmconsultorios',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterModule,CommonModule],
-  templateUrl: './frmconsultorios.component.html',
-  styleUrl: './frmconsultorios.component.css',
+    selector: 'app-frmconsultorios',
+    imports: [ReactiveFormsModule, RouterModule, CommonModule],
+    templateUrl: './frmconsultorios.component.html',
+    styleUrl: './frmconsultorios.component.css'
 })
 export class FrmconsultoriosComponent {
   frmConsultorio: FormGroup;

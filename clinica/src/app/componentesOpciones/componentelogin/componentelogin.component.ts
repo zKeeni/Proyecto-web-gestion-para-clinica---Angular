@@ -5,11 +5,10 @@ import { AuthService } from '../../servicios/authservicio.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-componenteloging',
-  standalone: true,
-  imports: [ReactiveFormsModule],
-  templateUrl: './componentelogin.component.html',
-  styleUrl: './componentelogin.component.css'
+    selector: 'app-componenteloging',
+    imports: [ReactiveFormsModule],
+    templateUrl: './componentelogin.component.html',
+    styleUrl: './componentelogin.component.css'
 })
 export class ComponenteloginComponent implements OnInit {
 

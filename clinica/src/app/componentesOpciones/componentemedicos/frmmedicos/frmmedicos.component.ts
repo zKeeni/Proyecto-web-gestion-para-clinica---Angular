@@ -23,11 +23,10 @@ import { InMedicoEspecialidad } from '../../../modelos/modeloEspecialidades/InMe
 import { AlertService } from '../../../servicios/Alertas/alertas.service';
 
 @Component({
-  selector: 'app-frmmedicos',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterModule, CommonModule],
-  templateUrl: './frmmedicos.component.html',
-  styleUrl: './frmmedicos.component.css',
+    selector: 'app-frmmedicos',
+    imports: [ReactiveFormsModule, RouterModule, CommonModule],
+    templateUrl: './frmmedicos.component.html',
+    styleUrl: './frmmedicos.component.css'
 })
 export class FrmmedicosComponent {
   frmMedico: FormGroup;

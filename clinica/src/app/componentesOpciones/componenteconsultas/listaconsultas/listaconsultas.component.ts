@@ -11,11 +11,10 @@ import { AuthService } from '../../../servicios/authservicio.service';
 import { DirectivasModule } from '../../../directivas/directivas.module';
 
 @Component({
-  selector: 'app-listaconsultas',
-  standalone: true,
-  imports: [CommonModule, RouterModule,DirectivasModule],
-  templateUrl: './listaconsultas.component.html',
-  styleUrl: './listaconsultas.component.css',
+    selector: 'app-listaconsultas',
+    imports: [CommonModule, RouterModule, DirectivasModule],
+    templateUrl: './listaconsultas.component.html',
+    styleUrl: './listaconsultas.component.css'
 })
 export class listaConsultasComponent {
   listaCitasPacientesP: InCitaPacienteLista[] = [];

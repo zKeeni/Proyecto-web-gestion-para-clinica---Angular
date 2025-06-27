@@ -25,11 +25,10 @@ import { AuthService } from '../../../servicios/authservicio.service';
 import { DirectivasModule } from '../../../directivas/directivas.module';
 
 @Component({
-  selector: 'app-listahistorial',
-  standalone: true,
-  imports: [ RouterModule,  ReactiveFormsModule,CommonModule,DirectivasModule],
-  templateUrl: './listahistorial.component.html',
-  styleUrl: './listahistorial.component.css',
+    selector: 'app-listahistorial',
+    imports: [RouterModule, ReactiveFormsModule, CommonModule, DirectivasModule],
+    templateUrl: './listahistorial.component.html',
+    styleUrl: './listahistorial.component.css'
 })
 export class listaHistorialComponent {
   listaHistorial: InHistorialLista[] = [];

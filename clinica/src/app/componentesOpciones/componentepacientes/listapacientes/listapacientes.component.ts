@@ -10,11 +10,10 @@ import { AlertService } from '../../../servicios/Alertas/alertas.service';
 import { DirectivasModule } from '../../../directivas/directivas.module';
 
 @Component({
-  selector: 'app-listapacientes',
-  standalone: true,
-  imports: [CommonModule, RouterModule,DirectivasModule],
-  templateUrl: './listapacientes.component.html',
-  styleUrl: './listapacientes.component.css',
+    selector: 'app-listapacientes',
+    imports: [CommonModule, RouterModule, DirectivasModule],
+    templateUrl: './listapacientes.component.html',
+    styleUrl: './listapacientes.component.css'
 })
 export class ListapacientesComponent {
   listaPacientes: InPaciente[] = [];

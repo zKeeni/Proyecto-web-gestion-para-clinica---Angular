@@ -8,11 +8,10 @@ import { especialidadesService } from '../../../servicios/especialidades.service
 import { AlertService } from '../../../servicios/Alertas/alertas.service';
 
 @Component({
-  selector: 'app-listaespecialidades',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './listaespecialidades.component.html',
-  styleUrl: './listaespecialidades.component.css',
+    selector: 'app-listaespecialidades',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './listaespecialidades.component.html',
+    styleUrl: './listaespecialidades.component.css'
 })
 export class listaEspecialidadesComponent {
   listaEspecialidades: InEspecialidades[] = [];

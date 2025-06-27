@@ -8,11 +8,10 @@ import { InConsultorios } from '../../../modelos/modelConsultorios/InConsultorio
 import { AlertService } from '../../../servicios/Alertas/alertas.service';
 
 @Component({
-  selector: 'app-listacosultorios',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './listaconsultorios.component.html',
-  styleUrl: './listaconsultorios.component.css',
+    selector: 'app-listacosultorios',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './listaconsultorios.component.html',
+    styleUrl: './listaconsultorios.component.css'
 })
 export class ListaconsultoriosComponent {
   listaConsultorios: InConsultorios[] = [];

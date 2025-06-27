@@ -8,11 +8,10 @@ import { CommonModule } from '@angular/common';
 import Swal from 'sweetalert2';
 
 @Component({
-  selector: 'app-listausuarios',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './listausuarios.component.html',
-  styleUrl: './listausuarios.component.css'
+    selector: 'app-listausuarios',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './listausuarios.component.html',
+    styleUrl: './listausuarios.component.css'
 })
 export class ListausuariosComponent {
   

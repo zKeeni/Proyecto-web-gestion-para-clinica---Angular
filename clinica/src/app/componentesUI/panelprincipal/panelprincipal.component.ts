@@ -4,12 +4,10 @@ import { SidebarComponent } from "../sidebar/sidebar.component";
 import { PanelcontenidoComponent } from "../panelcontenido/panelcontenido.component";
 
 @Component({
-  selector: 'app-panelprincipal',
-  standalone: true,
-  imports: [HeaderComponent, SidebarComponent, PanelcontenidoComponent],
-  templateUrl: './panelprincipal.component.html',
-  styleUrl: './panelprincipal.component.css',
-
+    selector: 'app-panelprincipal',
+    imports: [HeaderComponent, SidebarComponent, PanelcontenidoComponent],
+    templateUrl: './panelprincipal.component.html',
+    styleUrl: './panelprincipal.component.css'
 })
 export class PanelprincipalComponent {
 

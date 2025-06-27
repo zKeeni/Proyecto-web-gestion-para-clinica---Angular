@@ -5,11 +5,10 @@ import { DirectivasModule } from '../../directivas/directivas.module';
 import { AlertService } from '../../servicios/Alertas/alertas.service';
 
 @Component({
-  selector: 'app-sidebar',
-  standalone: true,
-  imports: [CommonModule,RouterLink, DirectivasModule],
-  templateUrl: './sidebar.component.html',
-  styleUrl: './sidebar.component.css'
+    selector: 'app-sidebar',
+    imports: [CommonModule, RouterLink, DirectivasModule],
+    templateUrl: './sidebar.component.html',
+    styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent {
 

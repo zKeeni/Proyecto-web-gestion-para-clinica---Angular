@@ -9,11 +9,10 @@ import { AlertService } from '../../../servicios/Alertas/alertas.service';
 
 
 @Component({
-  selector: 'app-listaHorarios',
-  standalone: true,
-  imports: [CommonModule,RouterModule],
-  templateUrl: './listahorarios.component.html',
-  styleUrl: './listahorarios.component.css'
+    selector: 'app-listaHorarios',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './listahorarios.component.html',
+    styleUrl: './listahorarios.component.css'
 })
 export class listaHorariosComponent {
 

@@ -16,11 +16,10 @@ import { AlertService } from '../../../servicios/Alertas/alertas.service';
 import Swal from 'sweetalert2';
 
 @Component({
-  selector: 'app-frmpacientes',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterModule, CommonModule],
-  templateUrl: './frmpacientes.component.html',
-  styleUrl: './frmpacientes.component.css',
+    selector: 'app-frmpacientes',
+    imports: [ReactiveFormsModule, RouterModule, CommonModule],
+    templateUrl: './frmpacientes.component.html',
+    styleUrl: './frmpacientes.component.css'
 })
 export class FrmpacientesComponent {
   frmPaciente: FormGroup;

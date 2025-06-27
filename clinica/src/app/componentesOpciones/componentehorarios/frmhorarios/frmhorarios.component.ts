@@ -16,11 +16,10 @@ import Swal from 'sweetalert2';
 
 
 @Component({
-  selector: 'app-frmhorarios',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterModule,CommonModule],
-  templateUrl: './frmhorarios.component.html',
-  styleUrl: './frmhorarios.component.css',
+    selector: 'app-frmhorarios',
+    imports: [ReactiveFormsModule, RouterModule, CommonModule],
+    templateUrl: './frmhorarios.component.html',
+    styleUrl: './frmhorarios.component.css'
 })
 export class FrmhorariosComponent {
   frmHorarios: FormGroup;
