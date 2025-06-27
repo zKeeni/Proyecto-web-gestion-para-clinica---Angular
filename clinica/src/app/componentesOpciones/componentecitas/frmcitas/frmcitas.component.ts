@@ -58,7 +58,7 @@ export class FrmcitasComponent {
   antecedentesCita: string = '';
   motivoCita: string = '';
   eventoUpdate: boolean = false;
-
+//JBJKDCKSJNCDJKNSJKC
   constructor(
     private serviEspecialidades: especialidadesService,
     private serviPacientes: PacientesService,
